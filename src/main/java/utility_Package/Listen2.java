@@ -2,6 +2,7 @@ package utility_Package;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -27,10 +28,16 @@ public static WebDriver driver;
 	public void onTestSuccess(ITestResult result ) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
+		Date d1=new Date();
+		//System.out.println(d1.getTime());
+		Date d2=new Date(d1.getTime());
+		//System.out.println(d2);
+		String current_time= d2.toString();
+		System.out.println(current_time);
 		Reporter.log("test case is pass");
 		TakesScreenshot ts=  (TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		File destination =new File("C:\\Users\\EKTA\\eclipse-workspace\\SeleniumProject\\passed\\ekta"+Math.random()+".png");
+		File destination =new File("C:\\Users\\EKTA\\eclipse-workspace\\SeleniumProject\\passed\\ekta"+Math.random()+ current_time+".png");
 		try {
 			FileHandler.copy(source, destination);
 		} catch (IOException e) {
@@ -44,6 +51,12 @@ public static WebDriver driver;
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
+		Date d1=new Date();
+		//System.out.println(d1.getTime());
+		Date d2=new Date(d1.getTime());
+		//System.out.println(d2);
+		String current_time= d2.toString();
+		System.out.println(current_time);
 		Reporter.log("test case is fail");
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);

@@ -5,6 +5,7 @@
     <classes>
       <class name="airlineTest.TestCase_Logout">
         <methods>
+          <include name="post1"/>
           <include name="launch"/>
           <include name="oneway"/>
         </methods>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[test case is pass]]>
@@ -7,13 +7,73 @@
     <line>
       <![CDATA[test case is pass]]>
     </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-09-06T18:43:07 IST" name="Suite" finished-at="2024-09-06T18:44:16 IST" duration-ms="68881">
+  <suite started-at="2024-09-06T22:03:57 IST" name="Suite" finished-at="2024-09-06T22:20:32 IST" duration-ms="995297">
     <groups>
     </groups>
-    <test started-at="2024-09-06T18:43:07 IST" name="Testing chrome" finished-at="2024-09-06T18:43:48 IST" duration-ms="41076">
-      <class name="airlineTest.Testcase2_Login">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase2_Login@43dac38f]" started-at="2024-09-06T18:43:07 IST" name="launch" finished-at="2024-09-06T18:43:17 IST" duration-ms="10648" status="PASS">
+    <test started-at="2024-09-06T22:03:57 IST" name="Testing chrome" finished-at="2024-09-06T22:13:47 IST" duration-ms="590285">
+      <class name="airlineTest.Testcase4_oneway">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase4_oneway@6fdbe764]" started-at="2024-09-06T22:07:45 IST" name="launch" finished-at="2024-09-06T22:07:57 IST" duration-ms="12187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,22 +84,262 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login1()[pri:0, instance:airlineTest.Testcase2_Login@43dac38f]" started-at="2024-09-06T18:43:17 IST" name="login1" finished-at="2024-09-06T18:43:47 IST" duration-ms="29739" status="PASS">
+        <test-method signature="oneway()[pri:0, instance:airlineTest.Testcase4_oneway@6fdbe764]" started-at="2024-09-06T22:07:57 IST" name="oneway" finished-at="2024-09-06T22:08:32 IST" duration-ms="34225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneway -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase4_oneway@6fdbe764]" started-at="2024-09-06T22:08:32 IST" name="post1" finished-at="2024-09-06T22:08:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase4_oneway -->
+      <class name="airlineTest.Testcase1_homepage">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase1_homepage@a38c7fe]" started-at="2024-09-06T22:07:30 IST" name="launch" finished-at="2024-09-06T22:07:40 IST" duration-ms="9749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login()[pri:0, instance:airlineTest.Testcase1_homepage@a38c7fe]" started-at="2024-09-06T22:07:40 IST" name="login" finished-at="2024-09-06T22:07:44 IST" duration-ms="4361" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase1_homepage@a38c7fe]" started-at="2024-09-06T22:07:45 IST" name="post1" finished-at="2024-09-06T22:07:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase1_homepage -->
+      <class name="airlineTest.Testcase514_twoway">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase514_twoway@2e6a8155]" started-at="2024-09-06T22:09:38 IST" name="launch" finished-at="2024-09-06T22:09:51 IST" duration-ms="13020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="twoway()[pri:0, instance:airlineTest.Testcase514_twoway@2e6a8155]" started-at="2024-09-06T22:09:51 IST" name="twoway" finished-at="2024-09-06T22:10:42 IST" duration-ms="51031" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- twoway -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase514_twoway@2e6a8155]" started-at="2024-09-06T22:10:42 IST" name="post1" finished-at="2024-09-06T22:10:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase514_twoway -->
+      <class name="airlineTest.TestCase6_economy">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.TestCase6_economy@51c668e3]" started-at="2024-09-06T22:08:32 IST" name="launch" finished-at="2024-09-06T22:08:42 IST" duration-ms="10470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="business1()[pri:0, instance:airlineTest.TestCase6_economy@51c668e3]" started-at="2024-09-06T22:08:42 IST" name="business1" finished-at="2024-09-06T22:09:37 IST" duration-ms="54558" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- business1 -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.TestCase6_economy@51c668e3]" started-at="2024-09-06T22:09:38 IST" name="post1" finished-at="2024-09-06T22:09:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.TestCase6_economy -->
+      <class name="airlineTest.TestCase_Logout">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.TestCase_Logout@4d5650ae]" started-at="2024-09-06T22:06:26 IST" name="launch" finished-at="2024-09-06T22:06:37 IST" duration-ms="10923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="oneway()[pri:0, instance:airlineTest.TestCase_Logout@4d5650ae]" started-at="2024-09-06T22:06:37 IST" name="oneway" finished-at="2024-09-06T22:07:30 IST" duration-ms="52995" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneway -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.TestCase_Logout@4d5650ae]" started-at="2024-09-06T22:07:30 IST" name="post1" finished-at="2024-09-06T22:07:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.TestCase_Logout -->
+      <class name="airlineTest.Testcase7_bookseat">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase7_bookseat@2e3967ea]" started-at="2024-09-06T22:04:26 IST" name="launch" finished-at="2024-09-06T22:04:34 IST" duration-ms="7932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="bookingseat()[pri:0, instance:airlineTest.Testcase7_bookseat@2e3967ea]" started-at="2024-09-06T22:04:34 IST" name="bookingseat" finished-at="2024-09-06T22:05:36 IST" duration-ms="61447" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookingseat -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase7_bookseat@2e3967ea]" started-at="2024-09-06T22:05:36 IST" name="post1" finished-at="2024-09-06T22:05:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase7_bookseat -->
+      <class name="airlineTest.Testcase9_multiple">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase9_multiple@70e9c95d]" started-at="2024-09-06T22:05:36 IST" name="launch" finished-at="2024-09-06T22:05:51 IST" duration-ms="15417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="mutilpeTraveller()[pri:0, instance:airlineTest.Testcase9_multiple@70e9c95d]" started-at="2024-09-06T22:05:51 IST" name="mutilpeTraveller" finished-at="2024-09-06T22:06:26 IST" duration-ms="34672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mutilpeTraveller -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase9_multiple@70e9c95d]" started-at="2024-09-06T22:06:26 IST" name="post1" finished-at="2024-09-06T22:06:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase9_multiple -->
+      <class name="airlineTest.Testcase2_Login">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase2_Login@7bab3f1a]" started-at="2024-09-06T22:03:57 IST" name="launch" finished-at="2024-09-06T22:04:06 IST" duration-ms="9386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login1()[pri:0, instance:airlineTest.Testcase2_Login@7bab3f1a]" started-at="2024-09-06T22:04:06 IST" name="login1" finished-at="2024-09-06T22:04:26 IST" duration-ms="19403" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase2_Login@43dac38f]" started-at="2024-09-06T18:43:48 IST" name="post1" finished-at="2024-09-06T18:43:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase2_Login@7bab3f1a]" started-at="2024-09-06T22:04:26 IST" name="post1" finished-at="2024-09-06T22:04:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post1 -->
       </class> <!-- airlineTest.Testcase2_Login -->
+      <class name="airlineTest.Testcase_ContactDetails_11">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase_ContactDetails_11@6221a451]" started-at="2024-09-06T22:10:42 IST" name="launch" finished-at="2024-09-06T22:10:51 IST" duration-ms="9280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="ConntactDetails()[pri:0, instance:airlineTest.Testcase_ContactDetails_11@6221a451]" started-at="2024-09-06T22:10:51 IST" name="ConntactDetails" finished-at="2024-09-06T22:11:45 IST" duration-ms="53107" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConntactDetails -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase_ContactDetails_11@6221a451]" started-at="2024-09-06T22:11:45 IST" name="post1" finished-at="2024-09-06T22:11:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase_ContactDetails_11 -->
+      <class name="airlineTest.TestCasecouponcode_13">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.TestCasecouponcode_13@3012646b]" started-at="2024-09-06T22:12:50 IST" name="launch" finished-at="2024-09-06T22:13:01 IST" duration-ms="11644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CouponCode()[pri:0, instance:airlineTest.TestCasecouponcode_13@3012646b]" started-at="2024-09-06T22:13:01 IST" name="CouponCode" finished-at="2024-09-06T22:13:47 IST" duration-ms="45521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CouponCode -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.TestCasecouponcode_13@3012646b]" started-at="2024-09-06T22:13:47 IST" name="post1" finished-at="2024-09-06T22:13:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.TestCasecouponcode_13 -->
+      <class name="airlineTest.Testcase10_Flightinfo">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase10_Flightinfo@52719fb6]" started-at="2024-09-06T22:11:45 IST" name="launch" finished-at="2024-09-06T22:11:55 IST" duration-ms="10188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="bookingdetails()[pri:0, instance:airlineTest.Testcase10_Flightinfo@52719fb6]" started-at="2024-09-06T22:11:55 IST" name="bookingdetails" finished-at="2024-09-06T22:12:50 IST" duration-ms="54684" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookingdetails -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase10_Flightinfo@52719fb6]" started-at="2024-09-06T22:12:50 IST" name="post1" finished-at="2024-09-06T22:12:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase10_Flightinfo -->
     </test> <!-- Testing chrome -->
-    <test started-at="2024-09-06T18:43:48 IST" name="Testing edge" finished-at="2024-09-06T18:44:16 IST" duration-ms="27727">
-      <class name="airlineTest.Testcase2_Login">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase2_Login@4d154ccd]" started-at="2024-09-06T18:43:48 IST" name="launch" finished-at="2024-09-06T18:43:58 IST" duration-ms="10268" status="PASS">
+    <test started-at="2024-09-06T22:13:47 IST" name="Testing edge" finished-at="2024-09-06T22:20:32 IST" duration-ms="404870">
+      <class name="airlineTest.Testcase4_oneway">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase4_oneway@15bb5034]" started-at="2024-09-06T22:16:05 IST" name="launch" finished-at="2024-09-06T22:16:17 IST" duration-ms="11574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,18 +350,258 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login1()[pri:0, instance:airlineTest.Testcase2_Login@4d154ccd]" started-at="2024-09-06T18:43:58 IST" name="login1" finished-at="2024-09-06T18:44:14 IST" duration-ms="16081" status="PASS">
+        <test-method signature="oneway()[pri:0, instance:airlineTest.Testcase4_oneway@15bb5034]" started-at="2024-09-06T22:16:17 IST" name="oneway" finished-at="2024-09-06T22:16:55 IST" duration-ms="38123" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneway -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase4_oneway@15bb5034]" started-at="2024-09-06T22:16:56 IST" name="post1" finished-at="2024-09-06T22:16:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase4_oneway -->
+      <class name="airlineTest.Testcase1_homepage">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase1_homepage@7d0b7e3c]" started-at="2024-09-06T22:15:49 IST" name="launch" finished-at="2024-09-06T22:16:01 IST" duration-ms="12122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login()[pri:0, instance:airlineTest.Testcase1_homepage@7d0b7e3c]" started-at="2024-09-06T22:16:01 IST" name="login" finished-at="2024-09-06T22:16:05 IST" duration-ms="3817" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase1_homepage@7d0b7e3c]" started-at="2024-09-06T22:16:05 IST" name="post1" finished-at="2024-09-06T22:16:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase1_homepage -->
+      <class name="airlineTest.Testcase514_twoway">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase514_twoway@2eae8e6e]" started-at="2024-09-06T22:17:36 IST" name="launch" finished-at="2024-09-06T22:17:47 IST" duration-ms="10862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="twoway()[pri:0, instance:airlineTest.Testcase514_twoway@2eae8e6e]" started-at="2024-09-06T22:17:47 IST" name="twoway" finished-at="2024-09-06T22:18:14 IST" duration-ms="26427" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- twoway -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase514_twoway@2eae8e6e]" started-at="2024-09-06T22:18:14 IST" name="post1" finished-at="2024-09-06T22:18:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase514_twoway -->
+      <class name="airlineTest.TestCase6_economy">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.TestCase6_economy@4b741d6d]" started-at="2024-09-06T22:16:56 IST" name="launch" finished-at="2024-09-06T22:17:08 IST" duration-ms="12565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="business1()[pri:0, instance:airlineTest.TestCase6_economy@4b741d6d]" started-at="2024-09-06T22:17:08 IST" name="business1" finished-at="2024-09-06T22:17:36 IST" duration-ms="27820" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- business1 -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.TestCase6_economy@4b741d6d]" started-at="2024-09-06T22:17:36 IST" name="post1" finished-at="2024-09-06T22:17:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.TestCase6_economy -->
+      <class name="airlineTest.TestCase_Logout">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.TestCase_Logout@6e9175d8]" started-at="2024-09-06T22:15:18 IST" name="launch" finished-at="2024-09-06T22:15:27 IST" duration-ms="9901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="oneway()[pri:0, instance:airlineTest.TestCase_Logout@6e9175d8]" started-at="2024-09-06T22:15:27 IST" name="oneway" finished-at="2024-09-06T22:15:49 IST" duration-ms="21496" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneway -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.TestCase_Logout@6e9175d8]" started-at="2024-09-06T22:15:49 IST" name="post1" finished-at="2024-09-06T22:15:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.TestCase_Logout -->
+      <class name="airlineTest.Testcase7_bookseat">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase7_bookseat@5b1669c0]" started-at="2024-09-06T22:14:14 IST" name="launch" finished-at="2024-09-06T22:14:24 IST" duration-ms="10483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="bookingseat()[pri:0, instance:airlineTest.Testcase7_bookseat@5b1669c0]" started-at="2024-09-06T22:14:24 IST" name="bookingseat" finished-at="2024-09-06T22:14:51 IST" duration-ms="27353" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookingseat -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase7_bookseat@5b1669c0]" started-at="2024-09-06T22:14:52 IST" name="post1" finished-at="2024-09-06T22:14:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase7_bookseat -->
+      <class name="airlineTest.Testcase9_multiple">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase9_multiple@78e4deb0]" started-at="2024-09-06T22:14:52 IST" name="launch" finished-at="2024-09-06T22:14:59 IST" duration-ms="7629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="mutilpeTraveller()[pri:0, instance:airlineTest.Testcase9_multiple@78e4deb0]" started-at="2024-09-06T22:14:59 IST" name="mutilpeTraveller" finished-at="2024-09-06T22:15:17 IST" duration-ms="17850" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mutilpeTraveller -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase9_multiple@78e4deb0]" started-at="2024-09-06T22:15:18 IST" name="post1" finished-at="2024-09-06T22:15:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase9_multiple -->
+      <class name="airlineTest.Testcase2_Login">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase2_Login@1530c739]" started-at="2024-09-06T22:13:47 IST" name="launch" finished-at="2024-09-06T22:14:02 IST" duration-ms="14439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login1()[pri:0, instance:airlineTest.Testcase2_Login@1530c739]" started-at="2024-09-06T22:14:02 IST" name="login1" finished-at="2024-09-06T22:14:13 IST" duration-ms="11410" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test case is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase2_Login@4d154ccd]" started-at="2024-09-06T18:44:16 IST" name="post1" finished-at="2024-09-06T18:44:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase2_Login@1530c739]" started-at="2024-09-06T22:14:14 IST" name="post1" finished-at="2024-09-06T22:14:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post1 -->
       </class> <!-- airlineTest.Testcase2_Login -->
+      <class name="airlineTest.Testcase_ContactDetails_11">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase_ContactDetails_11@8f2ef19]" started-at="2024-09-06T22:18:14 IST" name="launch" finished-at="2024-09-06T22:18:26 IST" duration-ms="12027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="ConntactDetails()[pri:0, instance:airlineTest.Testcase_ContactDetails_11@8f2ef19]" started-at="2024-09-06T22:18:26 IST" name="ConntactDetails" finished-at="2024-09-06T22:18:58 IST" duration-ms="31881" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConntactDetails -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase_ContactDetails_11@8f2ef19]" started-at="2024-09-06T22:18:58 IST" name="post1" finished-at="2024-09-06T22:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase_ContactDetails_11 -->
+      <class name="airlineTest.TestCasecouponcode_13">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.TestCasecouponcode_13@2cf3d63b]" started-at="2024-09-06T22:19:44 IST" name="launch" finished-at="2024-09-06T22:19:55 IST" duration-ms="11083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CouponCode()[pri:0, instance:airlineTest.TestCasecouponcode_13@2cf3d63b]" started-at="2024-09-06T22:19:55 IST" name="CouponCode" finished-at="2024-09-06T22:20:32 IST" duration-ms="36971" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CouponCode -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.TestCasecouponcode_13@2cf3d63b]" started-at="2024-09-06T22:20:32 IST" name="post1" finished-at="2024-09-06T22:20:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.TestCasecouponcode_13 -->
+      <class name="airlineTest.Testcase10_Flightinfo">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:airlineTest.Testcase10_Flightinfo@470734c3]" started-at="2024-09-06T22:18:58 IST" name="launch" finished-at="2024-09-06T22:19:11 IST" duration-ms="12887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="bookingdetails()[pri:0, instance:airlineTest.Testcase10_Flightinfo@470734c3]" started-at="2024-09-06T22:19:11 IST" name="bookingdetails" finished-at="2024-09-06T22:19:43 IST" duration-ms="31976" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookingdetails -->
+        <test-method is-config="true" signature="post1()[pri:0, instance:airlineTest.Testcase10_Flightinfo@470734c3]" started-at="2024-09-06T22:19:44 IST" name="post1" finished-at="2024-09-06T22:19:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post1 -->
+      </class> <!-- airlineTest.Testcase10_Flightinfo -->
     </test> <!-- Testing edge -->
   </suite> <!-- Suite -->
 </testng-results>
